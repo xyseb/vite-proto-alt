@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "ES2021",
+      "module": "ESNext",
+      "jsx": "react-jsx",
+      "strict": true,
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "outDir": "public/dist"
+    },
+    "include": ["src"]
+  }
