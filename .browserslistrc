@@ -13,11 +13,11 @@
 
 # Mobile 
 # Ajoute quelques navigateurs supplémentaires sur smartphone uniquement s'ils sont "un peu" utilisés
-last 99 iOS versions and > 0.1%
-last 99 Samsung versions and > 0.1%
-last 99 FirefoxAndroid versions and > 0.1%
-last 99 ChromeAndroid versions and > 0.1%
-last 99 OperaMini versions and > 0.1%
+last 50 iOS versions and > 0.25%
+last 50 Samsung versions and > 0.25%
+last 50 FirefoxAndroid versions and > 0.25%
+last 50 ChromeAndroid versions and > 0.25%
+last 50 OperaMini versions and > 0.25%
 
 # Supprime les navigateurs NON mort (IE < 10, etc...) ou trop vieux (Safari 5.1)
 not dead
@@ -29,3 +29,6 @@ not op_mini all
 not ExplorerMobile <= 99
 not ie <= 11
 not edge <= 99
+
+# Ajoute firefox ESR
+Firefox ESR

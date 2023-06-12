@@ -4,8 +4,7 @@
   "description": "Outils pour le workflow agile",
   "main": "index.js",
   "scripts": {
-    "dev:esbuild": "npx esbuild",
-    "dev": "cross-env NODE_ENV='development'; rollup --config rollup.config.js",
+    "dev": "cross-env NODE_ENV='development'; rollup --config rollup.config.js --watch",
     "build": "cross-env NODE_ENV='production'; rollup --config rollup.config.js"
   },
   "author": "Sebastien Deschamps",
@@ -31,7 +30,10 @@
     "eslint-plugin-compat": "^4.1.4",
     "gardevoir": "^1.0.0",
     "postcss": "^8.4.24",
-    "rollup": "^3.25.0",
+    "rollup": "^3.25.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-scss": "^4.0.0",
     "rollup-plugin-typescript2": "^0.34.1",
     "sass": "^1.63.3",
